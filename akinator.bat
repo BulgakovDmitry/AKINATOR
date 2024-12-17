@@ -1,0 +1,1 @@
+g++ akinatorMain.cpp akinatorTree.cpp akinatorStack.cpp akinatorFunctions.cpp -o akinator.exe -Wall -Wextra

@@ -1,0 +1,18 @@
+digraph
+{
+    node [ style = filled, fontcolor=darkblue, fillcolor=peachpuff, color="#252A34", penwidth = 2.5 ];
+    bgcolor = "lemonchiffon";
+
+    node_000001e8b37c1570 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1570 | data: ANIMAL | {left: 1E8B37C1600 | right: 1E8B37C1B10}} "];
+    node_000001e8b37c1600 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1600 | data: CULTURAL | {left: 1E8B37C17B0 | right: 1E8B37C1960}} "];
+    node_000001e8b37c17b0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C17B0 | data: POLTORASHKA | {left: 0 | right: 0}} "];
+    node_000001e8b37c1960 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1960 | data: FOPF | {left: 0 | right: 0}} "];
+    node_000001e8b37c1b10 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1B10 | data: TEACHES | {left: 1E8B37C1CC0 | right: 1E8B37C7AB0}} "];
+    node_000001e8b37c1cc0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1CC0 | data: MATH | {left: 1E8B37C1E70 | right: 1E8B37C1F00}} "];
+    node_000001e8b37c1e70 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1E70 | data: ZNAMENSKAY | {left: 0 | right: 0}} "];
+    node_000001e8b37c1f00 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1F00 | data: PHISICS | {left: 1E8B37C7750 | right: 1E8B37C7900}} "];
+    node_000001e8b37c7750 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7750 | data: HOLLIN | {left: 0 | right: 0}} "];
+    node_000001e8b37c7900 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7900 | data: DED | {left: 0 | right: 0}} "];
+    node_000001e8b37c7ab0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7AB0 | data: STUDENT | {left: 0 | right: 0}} "];
+    node_000001e8b37c1570 -> node_000001e8b37c1600     node_000001e8b37c1600 -> node_000001e8b37c17b0     node_000001e8b37c1600 -> node_000001e8b37c1960    node_000001e8b37c1570 -> node_000001e8b37c1b10    node_000001e8b37c1b10 -> node_000001e8b37c1cc0     node_000001e8b37c1cc0 -> node_000001e8b37c1e70     node_000001e8b37c1cc0 -> node_000001e8b37c1f00    node_000001e8b37c1f00 -> node_000001e8b37c7750     node_000001e8b37c1f00 -> node_000001e8b37c7900    node_000001e8b37c1b10 -> node_000001e8b37c7ab0
+}

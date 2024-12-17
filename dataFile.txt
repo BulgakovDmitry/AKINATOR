@@ -1,0 +1,33 @@
+{
+	"ANIMAL"
+	{
+		"CULTURAL"
+		{
+			"POLTORASHKA"
+		}
+		{
+			"FOPF"
+		}
+	}
+	{
+		"TEACHES"
+		{
+			"MATH"
+			{
+				"ZNAMENSKAY"
+			}
+			{
+				"PHISICS"
+				{
+					"HOLLIN"
+				}
+				{
+					"DED"
+				}
+			}
+		}
+		{
+			"STUDENT"
+		}
+	}
+}
