@@ -3,16 +3,18 @@ digraph
     node [ style = filled, fontcolor=darkblue, fillcolor=peachpuff, color="#252A34", penwidth = 2.5 ];
     bgcolor = "lemonchiffon";
 
-    node_000001e8b37c1570 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1570 | data: ANIMAL | {left: 1E8B37C1600 | right: 1E8B37C1B10}} "];
-    node_000001e8b37c1600 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1600 | data: CULTURAL | {left: 1E8B37C17B0 | right: 1E8B37C1960}} "];
-    node_000001e8b37c17b0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C17B0 | data: POLTORASHKA | {left: 0 | right: 0}} "];
-    node_000001e8b37c1960 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1960 | data: FOPF | {left: 0 | right: 0}} "];
-    node_000001e8b37c1b10 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1B10 | data: TEACHES | {left: 1E8B37C1CC0 | right: 1E8B37C7AB0}} "];
-    node_000001e8b37c1cc0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1CC0 | data: MATH | {left: 1E8B37C1E70 | right: 1E8B37C1F00}} "];
-    node_000001e8b37c1e70 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1E70 | data: ZNAMENSKAY | {left: 0 | right: 0}} "];
-    node_000001e8b37c1f00 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C1F00 | data: PHISICS | {left: 1E8B37C7750 | right: 1E8B37C7900}} "];
-    node_000001e8b37c7750 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7750 | data: HOLLIN | {left: 0 | right: 0}} "];
-    node_000001e8b37c7900 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7900 | data: DED | {left: 0 | right: 0}} "];
-    node_000001e8b37c7ab0 [shape=record, color=olivedrab4, label=" {addr: 1E8B37C7AB0 | data: STUDENT | {left: 0 | right: 0}} "];
-    node_000001e8b37c1570 -> node_000001e8b37c1600     node_000001e8b37c1600 -> node_000001e8b37c17b0     node_000001e8b37c1600 -> node_000001e8b37c1960    node_000001e8b37c1570 -> node_000001e8b37c1b10    node_000001e8b37c1b10 -> node_000001e8b37c1cc0     node_000001e8b37c1cc0 -> node_000001e8b37c1e70     node_000001e8b37c1cc0 -> node_000001e8b37c1f00    node_000001e8b37c1f00 -> node_000001e8b37c7750     node_000001e8b37c1f00 -> node_000001e8b37c7900    node_000001e8b37c1b10 -> node_000001e8b37c7ab0
+    node_000001e3eb4215f0 [shape=record, color=olivedrab4, label=" {addr: 1E3EB4215F0 | data: ANIMAL | {left: 1E3EB421680 | right: 1E3EB421EE0}} "];
+    node_000001e3eb421680 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421680 | data: CULTURAL | {left: 1E3EB421870 | right: 1E3EB421E50}} "];
+    node_000001e3eb421870 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421870 | data: did_he_eat_grandnothers_chiken | {left: 1E3EB421A70 | right: 1E3EB421C60}} "];
+    node_000001e3eb421a70 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421A70 | data: pushok | {left: 0 | right: 0}} "];
+    node_000001e3eb421c60 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421C60 | data: POLTORASHKA | {left: 0 | right: 0}} "];
+    node_000001e3eb421e50 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421E50 | data: FOPF | {left: 0 | right: 0}} "];
+    node_000001e3eb421ee0 [shape=record, color=olivedrab4, label=" {addr: 1E3EB421EE0 | data: TEACHES | {left: 1E3EB427850 | right: 1E3EB4284D0}} "];
+    node_000001e3eb427850 [shape=record, color=olivedrab4, label=" {addr: 1E3EB427850 | data: MATH | {left: 1E3EB427A20 | right: 1E3EB427C10}} "];
+    node_000001e3eb427a20 [shape=record, color=olivedrab4, label=" {addr: 1E3EB427A20 | data: ZNAMENSKAY | {left: 0 | right: 0}} "];
+    node_000001e3eb427c10 [shape=record, color=olivedrab4, label=" {addr: 1E3EB427C10 | data: PHISICS | {left: 1E3EB427E00 | right: 1E3EB427FF0}} "];
+    node_000001e3eb427e00 [shape=record, color=olivedrab4, label=" {addr: 1E3EB427E00 | data: HOLLIN | {left: 0 | right: 0}} "];
+    node_000001e3eb427ff0 [shape=record, color=olivedrab4, label=" {addr: 1E3EB427FF0 | data: DED | {left: 0 | right: 0}} "];
+    node_000001e3eb4284d0 [shape=record, color=olivedrab4, label=" {addr: 1E3EB4284D0 | data: STUDENT | {left: 0 | right: 0}} "];
+    node_000001e3eb4215f0 -> node_000001e3eb421680     node_000001e3eb421680 -> node_000001e3eb421870     node_000001e3eb421870 -> node_000001e3eb421a70     node_000001e3eb421870 -> node_000001e3eb421c60    node_000001e3eb421680 -> node_000001e3eb421e50    node_000001e3eb4215f0 -> node_000001e3eb421ee0    node_000001e3eb421ee0 -> node_000001e3eb427850     node_000001e3eb427850 -> node_000001e3eb427a20     node_000001e3eb427850 -> node_000001e3eb427c10    node_000001e3eb427c10 -> node_000001e3eb427e00     node_000001e3eb427c10 -> node_000001e3eb427ff0    node_000001e3eb421ee0 -> node_000001e3eb4284d0
 }

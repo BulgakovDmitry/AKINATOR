@@ -3,7 +3,13 @@
 	{
 		"CULTURAL"
 		{
-			"POLTORASHKA"
+			"did_he_eat_grandnothers_chiken"
+			{
+				"pushok"
+			}
+			{
+				"POLTORASHKA"
+			}
 		}
 		{
 			"FOPF"

@@ -3,7 +3,7 @@
 #include "akinatorFunctions.h"
 void runPrint()
 {
-    //txSpeak("press a to start Akinator, press d to get difinition, press s to show tree dump, press c to compare difinition, press e to exit");
+    
     printf(     "\n"
                     "%s(%sa%s)%s -%s to start Akinator\n" 
                     "%s(%sd%s)%s -%s to get difinition\n"
